@@ -94,7 +94,8 @@ def update_stats(season, team, fields):
 
     Later, we'll get the average of these items.
     """
-    stat_history_lim = 9
+    stat_history_lim = 2
+
     if team not in team_stats[season]:
         team_stats[season][team] = {}
 
